@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="static/css/style-min.css">
+    <title>MA Care</title>
+</head>
+
+<body>
+
+    <!--Navbar -->
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark " style="background-color: rgb(133, 0, 133);" id="na">
+        <a class="navbar-brand" href="#"><b>Ma Care</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+            aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/dashboard">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="campaign.html">Campaign</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reg">Donar-Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/stock">Stock-Availability</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">About Us</a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                        aria-labelledby="navbarDropdownMenuLink-333">
+                        <a class="dropdown-item" href="/profile">Profile</a>
+                        <a class="dropdown-item" href="#">History</a>
+                        <a class="dropdown-item" href="/">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--/.Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="card card-image img-fluid"
+        style="background-image: url('static/img/bg image.png'); background-size: cover;">
+        <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+            <div class="py-5">
+
+                <!-- Content -->
+                <h4 class="card-title h4 my-4 py-2">DONATE & SAVE LIFE!</h4>
+                <h1 class="mb-4 pb-2 px-md-5 mx-md-5">BE THE FIRST TO DONATE AND INSPIRE OTHERS <br> TO DONATE </h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <div class="container-fluid" id="container">
+        <div class="card text-center" id="prompt">
+            <div class="card-body">
+                <h4 class="card-title"><strong style="color:rgb(69, 1, 104)">WE ARE HERE FOR HELPING PEOPLE</strong></h4>
+                <p class="card-text" style="color:rgb(69, 1, 104)">We are here to save the lives. SO please join hands with us and be a part in 
+                    our family and have a helping journey with us!!<br>
+                    From this We can earn the true happiness to our soul.. 
+                    <br> Start Donating <b>Breast-Milk</b> and <b>Blood</b>!!!
+                </p>
+                <a href="#reg" class="btn btn-rounded" style="background-color: rgb(219, 178, 219); color:black">DONATE NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <!--breast-milk donation process-->
+    <div class="container-fluid" id="container2">
+
+        <!-- jumbotron -->
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h3 class="display-4" style="color:rgb(69, 1, 104)">BREAST-MILK DONATION PROCESS</h3>
+                <hr class="dots">
+                <p class="lead" style="color:rgb(69, 1, 104)">The donation process from the time you arrive at center until the time you leave</p>
+            </div>
+        </div>
+        <!-- jumbotron -->
+        <div class="container-fluid mb-5">
+            <!-- Card deck -->
+            <div class="card-deck">
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="static/img/reg.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">REGISTRATION</h4>
+                        <!--Text-->
+                        <p class="card-text">You need to complete a very simple registration form which contatins all
+                            required contact information to enter in the donation process.
+                            You can also finish this process online using our website.</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="static/img/screening.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">SCREENING</h4>
+                        <!--Text-->
+                        <p class="card-text">A drop of blood from your finger will be taken for a simple test to ensure
+                            that your blood levels are proper enough for donation.
+                            And you will be screend for any blood related diseases.</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="static/img/milk.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">DONATION</h4>
+                        <!--Text-->
+                        <p class="card-text">After passing screening test successfully you will be directed to a donor
+                            room for donation. You will be given a pump to express the milk.</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="static/img/refresment 2.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">REFRESHMENT</h4>
+                        <!--Text-->
+                        <p class="card-text">You can also stay in the sitting room until you feel strong enough to leave
+                            the center. You will receive refreshments in the donation zone</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+            </div>
+            <!-- Card deck -->
+        </div>
+    </div>
+    <!--/breast-milk donation process-->
+
+    <!--blood donation process-->
+    <div class="container-fluid" id="container2">
+
+        <!-- jumbotron -->
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h3 class="display-4" style="color:rgb(69, 1, 104)">BLOOD DONATION PROCESS</h3>
+                <hr class="dots">
+                <p class="lead"  style="color:rgb(69, 1, 104)">The donation process from the time you arrive at center until the time you leave</p>
+            </div>
+        </div>
+        <!-- jumbotron -->
+        <div class="container-fluid mb-5">
+            <!-- Card deck -->
+            <div class="card-deck">
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="static/img/registration.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">REGISTRATION</h4>
+                        <!--Text-->
+                        <p class="card-text">You need to complete a very simple registration form which contatins all
+                            required contact information to enter in the donation process.</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="static/img/bloodcheck.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">SCREENING</h4>
+                        <!--Text-->
+                        <p class="card-text">A drop of blood from your finger will be taken for a simple test to ensure
+                            that your blood levels are proper enough for donation.</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="static/img/donation.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">DONATION</h4>
+                        <!--Text-->
+                        <p class="card-text">After passing screening test successfully you will be directed to a donor
+                            bed for donation. It will take only 6-10 minutes.</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="static/img/Refreshment.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">REFRESHMENT</h4>
+                        <!--Text-->
+                        <p class="card-text">you can also stay in the sitting room until you feel strong enough to leave
+                            the center. You will receive refreshments in the donation zone</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+            </div>
+            <!-- Card deck -->
+        </div>
+    </div>
+    <!--/blood donation process-->
+
+    <!--quotes & form-->
+    <div class="container-fluid mb-5">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+
+                <!-- <img src="images/quote2.jpg" alt="" srcset="" class="img-fluid"> -->
+                <section class="p-1">
+                    <div class="streak2  lighten-3">
+                        <div class="flex-center">
+                            <ul class="mb-0 list-unstyled">
+                                <li>
+                                    <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i>Donating Money Is Great, 
+                                        But Donating Blood Is Even Better.
+                                        <i class="fas fa-quote-right" aria-hidden="true"></i></h2>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="p-1">
+                    <div class="streak  lighten-3">
+                        <div class="flex-center">
+                            <ul class="mb-0 list-unstyled">
+                                <li>
+                                    <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i> Something as simple as better breastfeeding could
+                                         save a million children a year.
+                                        <i
+                                            class="fas fa-quote-right" aria-hidden="true"></i></h2>
+                                </li>
+                                <li class="mb-0">
+                                    <h5 class="text-center font-italic mb-0"> <b>~ Anne M Mulcahy</b></h5>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-6 col-md-6" id="reg">
+                <!-- Material form register -->
+                <div class="card" style="background-color: #e6e6e6;">
+
+                    <h5 class="card-header text-center py-4" style="background-color:rgb(160, 95, 160); color:black">
+                        <strong>DONAR REGISTERATION</strong>
+                    </h5>
+
+                    <!--Card content-->
+                    <div class="card-body px-lg-5 pt-0">
+
+                        <!-- Form -->
+                        <form class="text-center" style="color: #000000;" action="/donate">
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- First name -->
+                                    <div class="md-form">
+                                        <input type="text" id="materialRegisterFormFirstName" name="nm" class="form-control" required>
+                                        <label for="materialRegisterFormFirstName"> Name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Last name -->
+                                    <div class="md-form">
+                                        <input type="Number" id="materialRegisterFormLastName" name="an" class="form-control" required>
+                                        <label for="materialRegisterFormLastName">Aadhar Number</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- Email -->
+                                    <div class="md-form">
+                                        <input type="email" id="materialRegisterFormEmail" name="em" class="form-control" required>
+                                        <label for="materialRegisterFormEmail">E-mail</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Phone Number -->
+                                    <div class="md-form">
+                                        <input type="number" id="materialRegisterFormPhone" class="form-control" name="pn"
+                                            aria-describedby="materialRegisterFormPhoneHelpBlock" required>
+                                        <label for="materialRegisterFormPhone">Phone number</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="form-row">
+                                <div class="col-8">
+                                    <!-- Gender -->
+                               <div class="md-form">
+                                <label> Gender </label>    
+                                <div class="form-check form-check-inline " style="padding-right: 20px;">
+                                    <input class="form-check-input" type="radio" name="gen" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                                  </div>
+                                  <div class="form-check form-check-inline" style="padding-right: 35px;">
+                                    <input class="form-check-input" type="radio" name="gen" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gen" id="inlineRadio3" value="option3" >
+                                    <label class="form-check-label" for="inlineRadio3">Others</label>
+                                  </div>
+                            </div>
+                               </div>
+                                <div class="col-2">
+                                    <!-- Age -->
+                                    <div class="md-form">
+                                        <input type="number" id="materialRegisterFormAge" class="form-control" name="age"
+                                            aria-describedby="materialRegisterFormPhoneHelpBlock" required>
+                                        <label for="materialRegisterFormAge">Age</label>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <!-- Age -->
+                                    <div class="md-form">
+                                        <input type="text" id="materialRegisterFormAge" class="form-control" name="pl"
+                                            aria-describedby="materialRegisterFormPhoneHelpBlock" required>
+                                        <label for="materialRegisterFormAge">Place</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- Date -->
+                                    <div class="md-form">
+                                        <input type="date" id="materialRegisterFormDate" name="date" class="form-control">
+                                        <label for="materialRegisterFormEmail">Date</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Time -->
+                                    <div class="md-form">
+                                        <input type="time" id="materialRegisterFormTime" class="form-control" name="time"
+                                            aria-describedby="materialRegisterFormPhoneHelpBlock">
+                                        <label for="materialRegisterFormPhone">Time</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-6">
+                                    <!-- what are you donating -->
+                                    <div class="md-form">
+                                        <select class="form-select" aria-label="Default select example" name="donate" style="background-color:rgb(250, 186, 250); color:black; text-align: left;" required  >
+                                            <option selected>Donate</option>
+                                            <option value="1">Breast-Milk</option>
+                                            <option value="2">Blood</option>
+                                          </select>
+                                </div>
+                                </div>
+                                <div class="col-6">
+                                    <!-- Blood-group -->
+                                    <div class="md-form">
+                                        <select class="form-select" aria-label="Default select example" name="bg" style="background-color:rgb(250,186,250); color:black; text-align: left;" required >
+                                            <option selected>Blood-Group</option>
+                                            <option value="1">A+</option>
+                                            <option value="2">B+</option>
+                                            <option value="1">AB+</option>
+                                            <option value="1">O+</option>
+                                            <option value="1">A-</option>
+                                            <option value="1">B-</option>
+                                            <option value="1">AB-</option>
+                                            <option value="1">O-</option>
+                                          </select>
+                                </div>
+                                </div>
+                            </div>
+
+
+                          
+
+                            <!-- Sign up button -->
+                            <button class="btn btn-rounded btn-block my-4 waves-effect z-depth-0" 
+                                type="submit" style="background-color: rgb(197, 85, 197); color:black">DONATE</button>
+
+                        </form>
+                        <!-- Form -->
+
+                    </div>
+
+                </div>
+                <!-- Material form register -->
+            </div>
+        </div>
+    </div>
+     <!--/quotes & form-->
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-center hi2">
+        <div class="container">
+            <h3 class="display-4">OUR VOLUNTEERS</h3>
+            <hr class="dots">
+            <p class="lead">The volunteers who give their talent and time to fulfill the mission.</p>
+        </div>
+    </div>
+   
+
+    <div class="container-fluid" id="container2">
+        <!-- Jumbotron -->
+        <div class="jumbotron text-center hi  mx-2 mb-5">
+
+            <!-- Title -->
+            <h2 class="card-title h2">JOIN WITH US AND SAVE LIFE</h2>
+
+            <div class="pt-2">
+                <button type="button" class="btn btn-rounded" style="background-color:rgb(219, 178, 219);">BECOME A VOLUNTEER</button>
+            </div>
+
+            <hr class="my-4 rgba-white-light">
+        </div>
+        <!-- Jumbotron -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small  pt-4"
+     style="background-color: rgb(133, 0, 133); color:rgb(253, 169, 235)" id="footer">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Lets make all Bonded</h5>
+                    <p>We made this website to motivate and inspire all to donate breast-milk and blood.
+                        We ensure our donar's privacy. With our Website Donar can select sepecific time and date for donation.
+                      You can donate it in your near-by Hospital!!</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Contact Us</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="mailto:webmetry@post.com"><i
+                                    class="fas fa-envelope-open mr-3"></i>abcd@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#!"><i class="fab fa-instagram mr-3"></i>care_app</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Our future mission</h5>
+
+                   <p>Our Aim is to feed all the baby with the god's gift Mother's milk.
+                    Soon we will introduce a facility which allows you to get excess milk from the 
+                    milk-bank at your door step.
+
+                   </p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Links -->
+        <a class="btn btn-rounded" style="background-color: rgb(219, 178, 219); color:black" href="#na">
+            Go Back to top <i class="fas fa-arrow-up"></i></a>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2023 Copyright:
+            <a href="/dashboard">Ma Care</a> All Rights Reserved
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>

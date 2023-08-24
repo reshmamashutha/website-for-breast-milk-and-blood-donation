@@ -1,0 +1,32 @@
+body {
+background-color: pink;
+
+}
+div{
+    background-color: pink;
+    
+}
+form{
+    background-color: pink;
+}
+ 
+h3{
+    color: rgb(70, 0, 136);
+}
+.p100{
+   text-align:center
+}
+.pd{
+    padding-top: 25px;
+  
+}
+div.card-header{
+    background-color: rgb(255, 20, 20);
+    text-align: center;
+    color: aliceblue;
+}
+img{
+border-radius: 180px;
+margin-top: 100px;
+
+}

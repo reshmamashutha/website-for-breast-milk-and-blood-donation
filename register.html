@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="static/css/style-min.css">
+    <title>MA Care</title>
+</head>
+
+<body>
+    <section class="vh-100 gradient-custom">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-sm-6 col-md-6" id="reg">
+                <!-- Material form register -->
+                <div class="card" style="background-color: #f293ff;">
+        
+                    <h5 class="card-header text-center py-4" style="background-color:rgb(160, 95, 160); color:black">
+                        <strong>Registration</strong>
+                    </h5>
+        
+                    <!--Card content-->
+                    <div class="card-body px-lg-5 pt-0">
+        
+                        <!-- Form -->
+                        <form class="text-center" style="color: #000000;" action="/register" method="POST">
+        
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- First name -->
+                                    <div class="md-form">
+                                        <input type="text" id="materialRegisterFormFirstName" class="form-control" name="nm" required>
+                                        <label for="materialRegisterFormFirstName"> Name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Last name -->
+                                    <div class="md-form">
+                                        <input type="Number" id="materialRegisterFormLastName" class="form-control" name="an" required>
+                                        <label for="materialRegisterFormLastName">Aadhar Number</label>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- Email -->
+                                    <div class="md-form">
+                                        <input type="email" id="materialRegisterFormEmail" class="form-control" name="em" required>
+                                        <label for="materialRegisterFormEmail">E-mail</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Phone Number -->
+                                    <div class="md-form">
+                                        <input type="number" id="materialRegisterFormPhone" class="form-control"
+                                            aria-describedby="materialRegisterFormPhoneHelpBlock" name="pn" required>
+                                        <label for="materialRegisterFormPhone">Phone number</label>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            
+                            <div class="form-row">
+                                <div class="col-8">
+                                    <!-- Gender -->
+                               <div class="md-form">
+                                <label> Gender </label>    
+                                <div class="form-check form-check-inline " style="padding-right: 20px;">
+                                    <input class="form-check-input" type="radio" name="gen" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                                  </div>
+                                  <div class="form-check form-check-inline" style="padding-right: 35px;">
+                                    <input class="form-check-input" type="radio" name="gen" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gen" id="inlineRadio3" value="option3" >
+                                    <label class="form-check-label" for="inlineRadio3">Others</label>
+                                  </div>
+                            </div>
+                               </div>
+                                <div class="col-4">
+                                    <!-- Age -->
+                                    <div class="md-form">
+                                        <input type="number" id="materialRegisterFormAge" class="form-control"
+                                            aria-describedby="materialRegisterFormPhoneHelpBlock" name="age" required>
+                                        <label for="materialRegisterFormAge">Age</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-6">
+                                        <!-- Date of birth -->
+                                        <div class="md-form">
+                                            <input type="date" id="materialRegisterFormAge" class="form-control"
+                                                aria-describedby="materialRegisterFormPhoneHelpBlock" name="dob" required>
+                                            <label for="materialRegisterFormAge">Date of birth</label>
+                                        </div>
+                                </div>
+                                <div class="col-6">
+                                    <!-- Blood-group -->
+                                    <div class="md-form">
+                                        <select class="form-select" aria-label="Default select example" name="pc" style="background-color:rgb(250,186,250); color:black; text-align: left;" required >
+                                            <option selected>Physically Challanged?</option>
+                                            <option value="1">Yes</option>
+                                            <option value="2">No</option>
+                                           
+                                          </select>
+                                </div>
+                                </div>
+                            </div>
+        
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- Date -->
+                                    <div class="md-form">
+                                        <input type="password" id="materialRegisterFormDate"  name= "pw"class="form-control" required>
+                                        <label for="materialRegisterFormEmail">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Time -->
+                                    <div class="md-form">
+                                        <input type="password" id="materialRegisterFormTime" class="form-control" name="cpw"
+                                            aria-describedby="materialRegisterFormPhoneHelpBlock" required>
+                                        <label for="materialRegisterFormPhone">Conform Password</label>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="form-row">
+                                <div class="col-6">
+                                    <!-- Address -->
+                                    <div class="md-form">
+                                        <textarea id="materialContactFormMessage" class="form-control md-textarea"  name="add" rows="3" required></textarea>
+                                <label for="materialContactFormMessage">Address</label>
+                                </div>
+                                </div>
+                                <div class="col-6">
+                                    <div form-row>
+                                         <!-- Blood-group -->
+                                          <div class="md-form">
+                                             <select class="form-select" aria-label="Default select example" name="bg"
+                                             style="background-color:rgb(250,186,250); color:black; text-align: left;" required >
+                                                 <option selected>Blood-Group</option>
+                                                 <option value="1">A+</option>
+                                                  <option value="2">B+</option>
+                                                  <option value="1">AB+</option>
+                                                  <option value="1">O+</option>
+                                                  <option value="1">A-</option>
+                                                  <option value="1">B-</option>
+                                                  <option value="1">AB-</option>
+                                                  <option value="1">O-</option>
+                                             </select>
+                                         </div>
+
+                                         <div class="md-form">
+                                            <input type="text" id="materialRegisterFormTime" class="form-control" name="city"
+                                                aria-describedby="materialRegisterFormPhoneHelpBlock" required>
+                                            <label for="materialRegisterFormPhone">city</label>
+                                        </div>
+
+                                         <div class="md-form">
+                                            <input type="number" id="materialRegisterFormTime" class="form-control" name="pincode"
+                                                aria-describedby="materialRegisterFormPhoneHelpBlock" required>
+                                            <label for="materialRegisterFormPhone">Pincode</label>
+                                        </div>
+
+                                       
+                                         
+                                </div>
+                                </div>
+                            </div><br><br>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- Date -->
+                                    <div class="md-form">
+                                        <select class="form-select" aria-label="Default select example" name="typ" style="background-color:rgb(250,186,250); color:black; text-align: left;" required >
+                                            <option selected>User Type</option>
+                                            <option value="1">Volunteer</option>
+                                            <option value="2">Hospital</option>
+                                           
+                                          </select>
+                                </div>
+                                </div>
+                            </div>
+        
+                            <div class="md-form">
+                                
+                            </div>
+        
+                            <!-- Sign up button -->
+                            <input type="submit" value="submit" style="background-color: #f293ff; text-align: center;">
+                            <br><br>
+
+                                <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                                    <p class="mb-0">Already have an account? <br>
+                                        <a href="/login" type="btn btn-block" class=" fw-bold" style="color:rgb(90, 29, 148)">Sign in</a>
+                                    </p>
+                                </div>
+                                <br><br><br>
+
+                                <h5 class="small mb-5 pb-lg-2"><a class="text-black-50" href="/">Back</a></h5>
+                        </form>
+                        <!-- Form -->
+        
+                    </div>
+        
+                </div>
+                <!-- Material form register -->
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- <button class="btn btn-rounded btn-block my-4 waves-effect z-depth-0" action="/addrec"
+      type="submit" style="background-color: rgb(197, 85, 197); color:black">Join Now</button> -->
+</body>
+</html>
